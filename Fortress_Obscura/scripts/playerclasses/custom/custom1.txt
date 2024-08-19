@@ -5,8 +5,8 @@ PlayerClass
 {
 	// Attributes.
 	"name"			"custom1"
-	"model"			"models/player/artillitrex_epic.mdl"
-	"model_hwm"		"models/player/statics/artillitrex_static.mdl"
+	"model"			"models/player/custom1.mdl"
+	"model_hwm"		"models/player/custom1.mdl"
 	"localize_name"		"Artillitrex"
 	"speed_max"		"240"
 	"health_max"		"220"
