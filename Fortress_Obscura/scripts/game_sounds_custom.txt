@@ -1,0 +1,210 @@
+// Channels
+//	CHAN_AUTO		= 0,
+//	CHAN_WEAPON		= 1,
+//	CHAN_VOICE		= 2,
+//	CHAN_ITEM		= 3,
+//	CHAN_BODY		= 4,
+//	CHAN_STREAM		= 5,		// allocate stream channel from the static or dynamic area
+//	CHAN_STATIC		= 6,		// allocate channel from the static area 
+// these can be set with "channel" "2" or "channel" "chan_voice"
+
+//-----------------------------------------------------------------------------
+// common attenuation values
+//-----------------------------------------------------------------------------
+
+// DON'T USE THESE - USE SNDLVL_ INSTEAD!!!
+//	ATTN_NONE		0.0f	
+//	ATTN_NORM		0.8f
+//	ATTN_IDLE		2.0f
+//	ATTN_STATIC		1.25f 
+//	ATTN_RICOCHET	1.5f
+//	ATTN_GUNFIRE	0.27f
+
+//	SNDLVL_NONE		= 0,
+//	SNDLVL_25dB		= 25,
+//	SNDLVL_30dB		= 30,
+//	SNDLVL_35dB		= 35,
+//	SNDLVL_40dB		= 40,
+//	SNDLVL_45dB		= 45,
+//	SNDLVL_50dB		= 50,	// 3.9
+//	SNDLVL_55dB		= 55,	// 3.0
+//	SNDLVL_IDLE		= 60,	// 2.0
+//	SNDLVL_TALKING	= 60,	// 2.0
+//	SNDLVL_60dB		= 60,	// 2.0
+//	SNDLVL_65dB		= 65,	// 1.5
+//	SNDLVL_STATIC	= 66,	// 1.25
+//	SNDLVL_70dB		= 70,	// 1.0
+//	SNDLVL_NORM		= 75,
+//	SNDLVL_75dB		= 75,	// 0.8
+//	SNDLVL_80dB		= 80,	// 0.7
+//	SNDLVL_85dB		= 85,	// 0.6
+//	SNDLVL_90dB		= 90,	// 0.5
+//	SNDLVL_95dB		= 95,
+//	SNDLVL_100dB	= 100,	// 0.4
+//	SNDLVL_105dB	= 105,
+//	SNDLVL_120dB	= 120,
+//	SNDLVL_130dB	= 130,
+//	SNDLVL_GUNFIRE	= 140,	// 0.27
+//	SNDLVL_140dB	= 140,	// 0.2
+//	SNDLVL_150dB	= 150,	// 0.2
+
+// ------------------------------------------------------------------------------------ //
+// WEAPONS
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_NailGun.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"weapons/nail_gun_shoot.wav"
+}
+"Weapon_NailGun.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"weapons/nail_gun_shoot_crit.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// GRENADES
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_Grenade.Beep"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_74dB"
+	"wave"		"weapons/grenade_beep.wav"
+}
+
+"Weapon_Grenade.FinalBeep"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_74dB"
+	"wave"		"weapons/grenade_finalbeep.wav"
+}
+
+"Weapon_Grenade.Full"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_74dB"
+	"wave"		"weapons/grenade_full.wav"
+}
+
+"Weapon_Grenade_Mirv.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_95dB"
+	"wave"		"weapons/grenade_throw.wav"
+}
+
+"Weapon_Grenade.PullPin"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"0.35"
+	"rndwave"
+	{
+		"wave"		"weapons/grenade_pin_pull1.wav"
+		"wave"		"weapons/grenade_pin_pull2.wav"
+		"wave"		"weapons/grenade_pin_pull3.wav"
+	}
+}
+
+// ------------------------------------------------------------------------------------ //
+// ARTILLERY SENTRY
+// ------------------------------------------------------------------------------------ //
+
+"Sentry_Artillery.Scan3"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"artillery/sentry_scan3.wav"
+}
+
+"Sentry_Artillery.Upgrade4"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"artillery/sentry_upgrading4.wav"
+}
+
+"Sentry_Artillery.Finish"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"artillery/sentry_finish.wav"
+}
+
+"Sentry_Artillery.Single"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"artillery/sentry_shoot.wav"
+}
+
+"Sentry_Artillery.SingleCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"artillery/sentry_shoot_mini.wav"
+}
+
+// ------------------------------------------------------------------------------------ 
+// ARTILLITREX
+// ------------------------------------------------------------------------------------ 
+
+"Artillitrex.Death"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_120dB"
+
+	"rndwave"			
+	{
+		"wave"		"vo/artillitrex_die1.wav"
+		"wave"		"vo/artillitrex_die2.wav"
+		"wave"		"vo/artillitrex_die3.wav"
+	}
+}
+
+"Artillitrex.No"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"		"SNDLVL_120dB"
+
+	"rndwave"			
+	{
+		"wave"		"vo/dismatic_PainCriticalDeath01.wav"
+		"wave"		"vo/dismatic_PainCriticalDeath02.wav"
+		"wave"		"vo/dismatic_PainCriticalDeath03.wav"
+	}
+}
+
+"Artillitrex.Grenade_Out"
+{
+	"channel"		"CHAN_VOICE"
+	"soundlevel"		"SNDLVL_NORM"
+	"volume"		"VOL_NORM"
+	"rndwave"			
+	{
+		"wave"		"vo/soldier_incoming01.wav"
+		"wave"		"vo/soldier_battlecry05.wav"
+		"wave"		"vo/soldier_battlecry06.wav"
+	}
+}

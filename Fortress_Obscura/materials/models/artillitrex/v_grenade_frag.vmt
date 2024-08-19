@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/artillitrex/v_grenade_frag"
+	"$bumpmap" "models/artillitrex/v_grenade_frag_normal"
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "4"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges" "[0.25 0.5 1]"
+	"$halflambert" "1"
+}

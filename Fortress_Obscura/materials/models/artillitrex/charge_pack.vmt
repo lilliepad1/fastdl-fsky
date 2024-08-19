@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/artillitrex/charge_pack_color"
+//	"$bumpmap"		"models/artillitrex/charge_pack_normal"
+}

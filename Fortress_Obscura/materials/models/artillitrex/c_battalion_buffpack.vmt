@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/artillitrex/c_battalion_buffpack"
+
+//	"$phong" "1"
+//	"$phongexponent" "5"
+//	"$phongboost" "5"
+//	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+//	"$phongfresnelranges"	"[.25 1 4]"
+//	"$basemapalphaphongmask" "1"
+
+//	"$rimlight" "1"
+//	"$rimlightexponent" "4"
+//	"$rimlightboost" ".65"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/artillitrex/soldier_hands"
+                "$bumpmap" "models/artillitrex/soldier_hands_n"
+	"$lightwarptexture" "models/lightwarps/hand_lightwarp"
+}
