@@ -40,8 +40,8 @@ WeaponData
 	// Max of 16 per category (ie. max 16 "single_shot" sounds).
 	SoundData
 	{
-		"single_shot"		"Weapon_Grenade.Full"
-		"burst"			"Weapon_Grenade.Full"
+		"single_shot"		"Weapon_Grenade.Fully"
+		"burst"			"Weapon_Grenade.Fully"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
@@ -57,7 +57,7 @@ WeaponData
 		}
 		"weapon_s"
 		{	
-				"file"		"models/artillitrex/sum23_stealth_bomber_style1_large"
+				"file"		"sprites/bucket_grenlaunch"
 				"x"		"0"
 				"y"		"0"
 				"width"		"200"

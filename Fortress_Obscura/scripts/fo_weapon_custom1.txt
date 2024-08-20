@@ -50,7 +50,7 @@ WeaponData
 	SoundData
 	{
 		"single_shot"		"Sentry_Artillery.Single"
-		"burst"			"Sentry_Artillery.SingleCrit"
+		"burst"			"Sentry_Artillery.Single"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
