@@ -1,0 +1,38 @@
+//
+// Fortress Obscura -  Artillitrex Player Class - Created by lazi.
+//
+PlayerClass
+{
+	// Attributes.
+	"name"			"custom3"
+	"model"			"models/player/custom3.mdl"
+	"model_hwm"			"models/player/custom3.mdl"
+	"localize_name"		"Artillitrex"
+	"speed_max"		"240"
+	"health_max"		"190"
+
+	// Weapons.
+	"weapon1"		"FO_WEAPON_CUSTOM1"
+	"weapon2"		"TF_WEAPON_PISTOL"
+	"weapon3"		"TF_WEAPON_SHOVEL"
+	"weapon4"		"TF_WEAPON_PIPEBOMBLAUNCHER"
+	"weapon5"		"TF_WEAPON_GRENADELAUNCHER"
+	
+	"DontDoAirwalk"	"0"
+	"DontDoNewJump"	"0"
+
+	AmmoMax
+	{
+		"tf_ammo_primary"	"48"
+		"tf_ammo_secondary"	"24"
+		"tf_ammo_metal"		"100"
+		"tf_ammo_grenades1"	"5"
+		"tf_ammo_grenades2"	"0"
+	}	
+
+	// Death Sounds
+	"sound_death"				"Artillitrex.Death"
+	"sound_crit_death"			"Artillitrex.CritDeath"
+	"sound_melee_death"			"Artillitrex.MeleeDeath"
+	"sound_explosion_death"			"Artillitrex.ExplosionDeath"		
+}

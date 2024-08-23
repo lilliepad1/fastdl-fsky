@@ -1,0 +1,40 @@
+//
+// Team Fortress - Beast Player Class
+//
+PlayerClass
+{
+    // Attributes.
+    "name"            "custom2"
+    "model"            "models/player/custom2.mdl"
+    "model"            "models/player/custom2.mdl"
+    "localize_name"    "The Sociopath"
+    "speed_max"        "300"
+//    "health_max"        "95"
+//    "armor_max"        "25"
+    "health_max"        "125"
+    "armor_max"        "0"
+
+    // Grenades.
+    "grenade1"        "TF_WEAPON_GRENADE_NORMAL"
+
+    // Weapons.
+    "weapon1"        "TF_WEAPON_FISTS"
+    "weapon2"        "TF_WEAPON_NONE"
+    "weapon3"        "TF_WEAPON_NONE"
+    "weapon4"        "TF_WEAPON_PDA_SPY"
+
+    AmmoMax
+    {
+        "tf_ammo_primary"    "20"        
+        "tf_ammo_secondary"    "24"
+        "tf_ammo_metal"        "100"
+        "tf_ammo_grenades1"    "0"
+        "tf_ammo_grenades2"    "0"
+    }    
+
+    // Death Sounds
+    "sound_death"                "Sniper.Death"
+    "sound_crit_death"                "Sniper.CritDeath"
+    "sound_melee_death"            "Sniper.MeleeDeath"
+    "sound_explosion_death"            "Sniper.ExplosionDeath"    
+}

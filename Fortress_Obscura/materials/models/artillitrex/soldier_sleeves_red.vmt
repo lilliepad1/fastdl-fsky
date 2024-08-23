@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/artillitrex/soldier_sleeves_red"
-	"$bumpmap" "models/artillitrex/soldier_sleeves_normal"
-	"$lightwarptexture" "models/player/engineer/engineer_hands_lightwarp"
-}

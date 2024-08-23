@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/v_grenades/v_grenade_pipebomb"
+	"$selfillum" "1"
+
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"resultVar" $selfillumtint
+			"sinemin" .1
+			"sinemax" 1.5
+			"sineperiod" 0.5
+		}
+	}
+}

@@ -49,22 +49,58 @@
 //	SNDLVL_150dB	= 150,	// 0.2
 
 // ------------------------------------------------------------------------------------ //
-// WEAPONS
+// AKIMBO PISTOLS
 // ------------------------------------------------------------------------------------ //
 
-"Weapon_NailGun.Single"
+"Weapon_Dualies.Single"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		"weapons/nail_gun_shoot.wav"
+	"wave"		"weapons/dualies_pistol_shoot.wav"
 }
-"Weapon_NailGun.SingleCrit"
+"Weapon_Dualies.SingleCrit"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		"weapons/nail_gun_shoot_crit.wav"
+	"wave"		"weapons/dualies_pistol_shoot_crit.wav"
+}
+
+"Weapon_Akimbo_Pistols.ClipIn"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"98, 102"
+	"wave"		"weapons/pistol_clipin.wav"
+}
+
+"Weapon_Akimbo_Pistols.ClipOut"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"98, 102"
+	"wave"		"weapons/pistol_clipout.wav"
+}
+
+"Weapon_Akimbo_Pistols.SlideBack"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"98, 102"
+	"wave"		"weapons/pistol_slideback.wav"
+}
+
+"Weapon_Akimbo_Pistols.SlideForward"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"98, 102"
+	"wave"		"weapons/pistol_slideforward.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
@@ -93,23 +129,59 @@
 }
 
 // ------------------------------------------------------------------------------------ //
-// ARTILLERY SENTRY
+// LEWIS PACK
 // ------------------------------------------------------------------------------------ //
 
-"Sentry_Artillery.Upgrade4"
+"Lewis_Pack.Single"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		"artillery/sentry_upgrading4.wav"
+	"wave"		"weapons/lewispack_shoot.wav"
 }
 
-"Sentry_Artillery.Single"
+"Lewis_Pack.SingleBurst"
 {
 	"channel"	"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_94dB"
 	"volume"	"1.0"
-	"wave"		"artillery/sentry_shoot.wav"
+	"wave"		"weapons/lewispack_shoot_crit.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// CHINA LAKE
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_ChinaLake.Cock_Forward"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"weapons/china_lake_pumpforward.wav"
+}
+
+"Weapon_ChinaLake.Cock_Back"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"weapons/china_lake_pumpback.wav"
+}
+
+"Weapon_ChinaLake.Reload"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.2"
+	"wave"		"weapons/china_lake_worldreload.wav"
+}
+
+"Weapon_ChinaLake.Draw"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		"weapons/china_lake_draw.wav"
 }
 
 // ------------------------------------------------------------------------------------ 
